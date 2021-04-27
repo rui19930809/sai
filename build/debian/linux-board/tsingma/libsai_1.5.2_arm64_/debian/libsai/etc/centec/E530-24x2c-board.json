@@ -1,0 +1,546 @@
+{
+    "fibers" : [
+        {
+          "fiber_flg" : "E_FIBER_SFP",
+          "mode"      : "E_FIBER_ASIC_ASIC",
+          "cs"        : "0 0 0",
+          "en_mode"   : "E_FIBER_EN_SYSFS",
+          "en"        : "sfp_enable",
+          "sysfs_path"         : "/sys/class/sfp/sfp1/",
+          "sync_fiber_present" : 1
+        },
+        {
+          "fiber_flg" : "E_FIBER_SFP",
+          "mode"      : "E_FIBER_ASIC_ASIC",
+          "cs"        : "0 0 1",
+          "en_mode"   : "E_FIBER_EN_SYSFS",
+          "en"        : "sfp_enable",
+          "sysfs_path"         : "/sys/class/sfp/sfp2/",
+          "sync_fiber_present" : 1
+        },
+        {
+          "fiber_flg" : "E_FIBER_SFP",
+          "mode"      : "E_FIBER_ASIC_ASIC",
+          "cs"        : "0 0 7",
+          "en_mode"   : "E_FIBER_EN_SYSFS",
+          "en"        : "sfp_enable",
+          "sysfs_path"         : "/sys/class/sfp/sfp3/",
+          "sync_fiber_present" : 1
+        },
+        {
+          "fiber_flg" : "E_FIBER_SFP",
+          "mode"      : "E_FIBER_ASIC_ASIC",
+          "cs"        : "0 0 6",
+          "en_mode"   : "E_FIBER_EN_SYSFS",
+          "en"        : "sfp_enable",
+          "sysfs_path"         : "/sys/class/sfp/sfp4/",
+          "sync_fiber_present" : 1
+        },
+        {
+          "fiber_flg" : "E_FIBER_SFP",
+          "mode"      : "E_FIBER_ASIC_ASIC",
+          "cs"        : "0 0 5",
+          "en_mode"   : "E_FIBER_EN_SYSFS",
+          "en"        : "sfp_enable",
+          "sysfs_path"         : "/sys/class/sfp/sfp5/",
+          "sync_fiber_present" : 1
+        },
+        {
+          "fiber_flg" : "E_FIBER_SFP",
+          "mode"      : "E_FIBER_ASIC_ASIC",
+          "cs"        : "0 0 2",
+          "en_mode"   : "E_FIBER_EN_SYSFS",
+          "en"        : "sfp_enable",
+          "sysfs_path"         : "/sys/class/sfp/sfp6/",
+          "sync_fiber_present" : 1
+        },
+        {
+          "fiber_flg" : "E_FIBER_SFP",
+          "mode"      : "E_FIBER_ASIC_ASIC",
+          "cs"        : "0 0 4",
+          "en_mode"   : "E_FIBER_EN_SYSFS",
+          "en"        : "sfp_enable",
+          "sysfs_path"         : "/sys/class/sfp/sfp7/",
+          "sync_fiber_present" : 1
+        },
+        {
+          "fiber_flg" : "E_FIBER_SFP",
+          "mode"      : "E_FIBER_ASIC_ASIC",
+          "cs"        : "0 0 3",
+          "en_mode"   : "E_FIBER_EN_SYSFS",
+          "en"        : "sfp_enable",
+          "sysfs_path"         : "/sys/class/sfp/sfp8/",
+          "sync_fiber_present" : 1
+        },
+        {
+          "fiber_flg" : "E_FIBER_SFP",
+          "mode"      : "E_FIBER_ASIC_ASIC",
+          "cs"        : "0 0 8",
+          "en_mode"   : "E_FIBER_EN_SYSFS",
+          "en"        : "sfp_enable",
+          "sysfs_path"         : "/sys/class/sfp/sfp9/",
+          "sync_fiber_present" : 1
+        },
+        {
+          "fiber_flg" : "E_FIBER_SFP",
+          "mode"      : "E_FIBER_ASIC_ASIC",
+          "cs"        : "0 0 9",
+          "en_mode"   : "E_FIBER_EN_SYSFS",
+          "en"        : "sfp_enable",
+          "sysfs_path"         : "/sys/class/sfp/sfp10/",
+          "sync_fiber_present" : 1
+        },
+        {
+          "fiber_flg" : "E_FIBER_SFP",
+          "mode"      : "E_FIBER_ASIC_ASIC",
+          "cs"        : "0 0 15",
+          "en_mode"   : "E_FIBER_EN_SYSFS",
+          "en"        : "sfp_enable",
+          "sysfs_path"         : "/sys/class/sfp/sfp11/",
+          "sync_fiber_present" : 1
+        },
+        {
+          "fiber_flg" : "E_FIBER_SFP",
+          "mode"      : "E_FIBER_ASIC_ASIC",
+          "cs"        : "0 0 14",
+          "en_mode"   : "E_FIBER_EN_SYSFS",
+          "en"        : "sfp_enable",
+          "sysfs_path"         : "/sys/class/sfp/sfp12/",
+          "sync_fiber_present" : 1
+        },
+        {
+          "fiber_flg" : "E_FIBER_SFP",
+          "mode"      : "E_FIBER_ASIC_ASIC",
+          "cs"        : "0 0 13",
+          "en_mode"   : "E_FIBER_EN_SYSFS",
+          "en"        : "sfp_enable",
+          "sysfs_path"         : "/sys/class/sfp/sfp13/",
+          "sync_fiber_present" : 1
+        },
+        {
+          "fiber_flg" : "E_FIBER_SFP",
+          "mode"      : "E_FIBER_ASIC_ASIC",
+          "cs"        : "0 0 10",
+          "en_mode"   : "E_FIBER_EN_SYSFS",
+          "en"        : "sfp_enable",
+          "sysfs_path"         : "/sys/class/sfp/sfp14/",
+          "sync_fiber_present" : 1
+        },
+        {
+          "fiber_flg" : "E_FIBER_SFP",
+          "mode"      : "E_FIBER_ASIC_ASIC",
+          "cs"        : "0 0 12",
+          "en_mode"   : "E_FIBER_EN_SYSFS",
+          "en"        : "sfp_enable",
+          "sysfs_path"         : "/sys/class/sfp/sfp15/",
+          "sync_fiber_present" : 1
+        },
+        {
+          "fiber_flg" : "E_FIBER_SFP",
+          "mode"      : "E_FIBER_ASIC_ASIC",
+          "cs"        : "0 0 11",
+          "en_mode"   : "E_FIBER_EN_SYSFS",
+          "en"        : "sfp_enable",
+          "sysfs_path"         : "/sys/class/sfp/sfp16/",
+          "sync_fiber_present" : 1
+        },
+        {
+          "fiber_flg" : "E_FIBER_SFP",
+          "mode"      : "E_FIBER_ASIC_ASIC",
+          "cs"        : "0 0 20",
+          "en_mode"   : "E_FIBER_EN_SYSFS",
+          "en"        : "sfp_enable",
+          "sysfs_path"         : "/sys/class/sfp/sfp17/",
+          "sync_fiber_present" : 1
+        },
+        {
+          "fiber_flg" : "E_FIBER_SFP",
+          "mode"      : "E_FIBER_ASIC_ASIC",
+          "cs"        : "0 0 19",
+          "en_mode"   : "E_FIBER_EN_SYSFS",
+          "en"        : "sfp_enable",
+          "sysfs_path"         : "/sys/class/sfp/sfp18/",
+          "sync_fiber_present" : 1
+        },
+        {
+          "fiber_flg" : "E_FIBER_SFP",
+          "mode"      : "E_FIBER_ASIC_ASIC",
+          "cs"        : "0 0 21",
+          "en_mode"   : "E_FIBER_EN_SYSFS",
+          "en"        : "sfp_enable",
+          "sysfs_path"         : "/sys/class/sfp/sfp19/",
+          "sync_fiber_present" : 1
+        },
+        {
+          "fiber_flg" : "E_FIBER_SFP",
+          "mode"      : "E_FIBER_ASIC_ASIC",
+          "cs"        : "0 0 18",
+          "en_mode"   : "E_FIBER_EN_SYSFS",
+          "en"        : "sfp_enable",
+          "sysfs_path"         : "/sys/class/sfp/sfp20/",
+          "sync_fiber_present" : 1
+        },
+        {
+          "fiber_flg" : "E_FIBER_SFP",
+          "mode"      : "E_FIBER_ASIC_ASIC",
+          "cs"        : "0 0 22",
+          "en_mode"   : "E_FIBER_EN_SYSFS",
+          "en"        : "sfp_enable",
+          "sysfs_path"         : "/sys/class/sfp/sfp21/",
+          "sync_fiber_present" : 1
+        },
+        {
+          "fiber_flg" : "E_FIBER_SFP",
+          "mode"      : "E_FIBER_ASIC_ASIC",
+          "cs"        : "0 0 17",
+          "en_mode"   : "E_FIBER_EN_SYSFS",
+          "en"        : "sfp_enable",
+          "sysfs_path"         : "/sys/class/sfp/sfp22/",
+          "sync_fiber_present" : 1
+        },
+        {
+          "fiber_flg" : "E_FIBER_SFP",
+          "mode"      : "E_FIBER_ASIC_ASIC",
+          "cs"        : "0 0 23",
+          "en_mode"   : "E_FIBER_EN_SYSFS",
+          "en"        : "sfp_enable",
+          "sysfs_path"         : "/sys/class/sfp/sfp23/",
+          "sync_fiber_present" : 1
+        },
+        {
+          "fiber_flg" : "E_FIBER_SFP",
+          "mode"      : "E_FIBER_ASIC_ASIC",
+          "cs"        : "0 0 16",
+          "en_mode"   : "E_FIBER_EN_SYSFS",
+          "en"        : "sfp_enable",
+          "sysfs_path"         : "/sys/class/sfp/sfp24/",
+          "sync_fiber_present" : 1
+        },
+        {
+          "fiber_flg" : "E_FIBER_QSFP_P",
+          "mode"      : "E_FIBER_ASIC_ASIC",
+          "cs"        : "0 0 24",
+          "en_mode"   : "E_FIBER_EN_QSFP",
+          "sysfs_path"         : "/sys/class/sfp/sfp25/",
+          "sync_fiber_present" : 1
+        },
+        {
+          "fiber_flg" : "E_FIBER_QSFP_P",
+          "mode"      : "E_FIBER_ASIC_ASIC",
+          "cs"        : "0 0 25",
+          "en_mode"   : "E_FIBER_EN_QSFP",
+          "sysfs_path"         : "/sys/class/sfp/sfp26/",
+          "sync_fiber_present" : 1
+        }
+    ],
+    "macleds" : {
+        "polarity" : 1,
+        "maps" : [
+            {
+                "port_id" : 67,
+                "lchip"   : 0,
+                "ctl_id"  : 0,
+                "mode"    : "LED_MODE_1_FORCE_OFF",
+                "fixed"   : 0
+            },
+            {
+                "port_id" : 66,
+                "lchip"   : 0,
+                "ctl_id"  : 0,
+                "mode"    : "LED_MODE_1_FORCE_OFF",
+                "fixed"   : 0
+            },
+            {
+                "port_id" : 65,
+                "lchip"   : 0,
+                "ctl_id"  : 0,
+                "mode"    : "LED_MODE_1_FORCE_OFF",
+                "fixed"   : 0
+            },
+            {
+                "port_id" : 64,
+                "lchip"   : 0,
+                "ctl_id"  : 0,
+                "mode"    : "LED_MODE_1_FORCE_OFF",
+                "fixed"   : 0
+            },
+            {
+                "port_id" : 44,
+                "lchip"   : 0,
+                "ctl_id"  : 0,
+                "mode"    : "LED_MODE_2_FORCE_OFF",
+                "fixed"   : 0,
+                "sysfs_path" : "/sys/class/leds/port26/brightness"
+            },
+            {
+                "port_id" : 60,
+                "lchip"   : 0,
+                "ctl_id"  : 0,
+                "mode"    : "LED_MODE_2_FORCE_OFF",
+                "fixed"   : 0,
+                "sysfs_path" : "/sys/class/leds/port25/brightness"
+            },
+            {
+                "port_id" : 31,
+                "lchip"   : 0,
+                "ctl_id"  : 0,
+                "mode"    : "LED_MODE_2_FORCE_OFF",
+                "fixed"   : 0,
+                "sysfs_path" : "/sys/class/leds/port24/brightness"
+            },
+            {
+                "port_id" : 30,
+                "lchip"   : 0,
+                "ctl_id"  : 0,
+                "mode"    : "LED_MODE_2_FORCE_OFF",
+                "fixed"   : 0,
+                "sysfs_path" : "/sys/class/leds/port23/brightness"
+            },
+            {
+                "port_id" : 29,
+                "lchip"   : 0,
+                "ctl_id"  : 0,
+                "mode"    : "LED_MODE_2_FORCE_OFF",
+                "fixed"   : 0,
+                "sysfs_path" : "/sys/class/leds/port22/brightness"
+            },
+            {
+                "port_id" : 28,
+                "lchip"   : 0,
+                "ctl_id"  : 0,
+                "mode"    : "LED_MODE_2_FORCE_OFF",
+                "fixed"   : 0,
+                "sysfs_path" : "/sys/class/leds/port21/brightness"
+            },
+            {
+                "port_id" : 27,
+                "lchip"   : 0,
+                "ctl_id"  : 0,
+                "mode"    : "LED_MODE_2_FORCE_OFF",
+                "fixed"   : 0,
+                "sysfs_path" : "/sys/class/leds/port20/brightness"
+            },
+            {
+                "port_id" : 26,
+                "lchip"   : 0,
+                "ctl_id"  : 0,
+                "mode"    : "LED_MODE_2_FORCE_OFF",
+                "fixed"   : 0,
+                "sysfs_path" : "/sys/class/leds/port19/brightness"
+            },
+            {
+                "port_id" : 25,
+                "lchip"   : 0,
+                "ctl_id"  : 0,
+                "mode"    : "LED_MODE_2_FORCE_OFF",
+                "fixed"   : 0,
+                "sysfs_path" : "/sys/class/leds/port18/brightness"
+            },
+            {
+                "port_id" : 24,
+                "lchip"   : 0,
+                "ctl_id"  : 0,
+                "mode"    : "LED_MODE_2_FORCE_OFF",
+                "fixed"   : 0,
+                "sysfs_path" : "/sys/class/leds/port17/brightness"
+            },
+            {
+                "port_id" : 15,
+                "lchip"   : 0,
+                "ctl_id"  : 0,
+                "mode"    : "LED_MODE_2_FORCE_OFF",
+                "fixed"   : 0,
+                "sysfs_path" : "/sys/class/leds/port16/brightness"
+            },
+            {
+                "port_id" : 14,
+                "lchip"   : 0,
+                "ctl_id"  : 0,
+                "mode"    : "LED_MODE_2_FORCE_OFF",
+                "fixed"   : 0,
+                "sysfs_path" : "/sys/class/leds/port15/brightness"
+            },
+            {
+                "port_id" : 13,
+                "lchip"   : 0,
+                "ctl_id"  : 0,
+                "mode"    : "LED_MODE_2_FORCE_OFF",
+                "fixed"   : 0,
+                "sysfs_path" : "/sys/class/leds/port14/brightness"
+            },
+            {
+                "port_id" : 12,
+                "lchip"   : 0,
+                "ctl_id"  : 0,
+                "mode"    : "LED_MODE_2_FORCE_OFF",
+                "fixed"   : 0,
+                "sysfs_path" : "/sys/class/leds/port13/brightness"
+            },
+            {
+                "port_id" : 23,
+                "lchip"   : 0,
+                "ctl_id"  : 0,
+                "mode"    : "LED_MODE_2_FORCE_OFF",
+                "fixed"   : 0,
+                "sysfs_path" : "/sys/class/leds/port12/brightness"
+            },
+            {
+                "port_id" : 22,
+                "lchip"   : 0,
+                "ctl_id"  : 0,
+                "mode"    : "LED_MODE_2_FORCE_OFF",
+                "fixed"   : 0,
+                "sysfs_path" : "/sys/class/leds/port11/brightness"
+            },
+            {
+                "port_id" : 21,
+                "lchip"   : 0,
+                "ctl_id"  : 0,
+                "mode"    : "LED_MODE_2_FORCE_OFF",
+                "fixed"   : 0,
+                "sysfs_path" : "/sys/class/leds/port10/brightness"
+            },
+            {
+                "port_id" : 20,
+                "lchip"   : 0,
+                "ctl_id"  : 0,
+                "mode"    : "LED_MODE_2_FORCE_OFF",
+                "fixed"   : 0,
+                "sysfs_path" : "/sys/class/leds/port9/brightness"
+            },
+            {
+                "port_id" : 11,
+                "lchip"   : 0,
+                "ctl_id"  : 0,
+                "mode"    : "LED_MODE_2_FORCE_OFF",
+                "fixed"   : 0,
+                "sysfs_path" : "/sys/class/leds/port8/brightness"
+            },
+            {
+                "port_id" : 10,
+                "lchip"   : 0,
+                "ctl_id"  : 0,
+                "mode"    : "LED_MODE_2_FORCE_OFF",
+                "fixed"   : 0,
+                "sysfs_path" : "/sys/class/leds/port7/brightness"
+            },
+            {
+                "port_id" : 9,
+                "lchip"   : 0,
+                "ctl_id"  : 0,
+                "mode"    : "LED_MODE_2_FORCE_OFF",
+                "fixed"   : 0,
+                "sysfs_path" : "/sys/class/leds/port6/brightness"
+            },
+            {
+                "port_id" : 8,
+                "lchip"   : 0,
+                "ctl_id"  : 0,
+                "mode"    : "LED_MODE_2_FORCE_OFF",
+                "fixed"   : 0,
+                "sysfs_path" : "/sys/class/leds/port5/brightness"
+            },
+            {
+                "port_id" : 3,
+                "lchip"   : 0,
+                "ctl_id"  : 0,
+                "mode"    : "LED_MODE_2_FORCE_OFF",
+                "fixed"   : 0,
+                "sysfs_path" : "/sys/class/leds/port4/brightness"
+            },
+            {
+                "port_id" : 2,
+                "lchip"   : 0,
+                "ctl_id"  : 0,
+                "mode"    : "LED_MODE_2_FORCE_OFF",
+                "fixed"   : 0,
+                "sysfs_path" : "/sys/class/leds/port3/brightness"
+            },
+            {
+                "port_id" : 1,
+                "lchip"   : 0,
+                "ctl_id"  : 0,
+                "mode"    : "LED_MODE_2_FORCE_OFF",
+                "fixed"   : 0,
+                "sysfs_path" : "/sys/class/leds/port2/brightness"
+            },
+            {
+                "port_id" : 0,
+                "lchip"   : 0,
+                "ctl_id"  : 0,
+                "mode"    : "LED_MODE_2_FORCE_OFF",
+                "fixed"   : 0,
+                "sysfs_path" : "/sys/class/leds/port1/brightness"
+            }
+        ]
+    },
+    "ffe" : {
+        "board_material" : "BOARD_MATERIAL_M4",
+        "config" : [
+            {
+              "serdes_id" : [0, 1, 2, 3, 4, 5, 6, 7],
+              "is_dac"    : 0,
+              "speed"     : [10000, 1000],
+
+              "mode"      : "CTC_CHIP_SERDES_FFE_MODE_DEFINE",
+              "cfg"       : [2, 92, 15, 0]
+            },
+            {
+              "serdes_id" : [0, 1, 2, 3, 4, 5, 6, 7],
+              "is_dac"    : 1,
+              "speed"     : [10000, 1000],
+
+              "mode"      : "CTC_CHIP_SERDES_FFE_MODE_DEFINE",
+              "cfg"       : [8, 174, 0, 0]
+            },
+            {
+              "serdes_id" : [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+              "is_dac"    : 0,
+              "speed"     : [10000, 1000],
+
+              "mode"      : "CTC_CHIP_SERDES_FFE_MODE_DEFINE",
+              "cfg"       : [2, 70, 7, 0]
+            },
+            {
+              "serdes_id" : [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+              "is_dac"    : 1,
+              "speed"     : [10000, 1000],
+
+              "mode"      : "CTC_CHIP_SERDES_FFE_MODE_DEFINE",
+              "cfg"       : [4, 180, 0, 0]
+            },
+            {
+              "serdes_id" : [24, 25, 26, 27, 28, 29, 30, 31],
+              "is_dac"    : 0,
+              "speed"     : [100000, 25000],
+
+              "mode"      : "CTC_CHIP_SERDES_FFE_MODE_DEFINE",
+              "cfg"       : [63, 20, 60, 0]
+            },
+            {
+              "serdes_id" : [24, 25, 26, 27, 28, 29, 30, 31],
+              "is_dac"    : 0,
+              "speed"     : [40000, 10000, 1000],
+
+              "mode"      : "CTC_CHIP_SERDES_FFE_MODE_DEFINE",
+              "cfg"       : [0, 15, 63, 0]
+            },
+            {
+              "serdes_id" : [24, 25, 26, 27, 28, 29, 30, 31],
+              "is_dac"    : 1,
+              "speed"     : [10000, 25000],
+
+              "mode"      : "CTC_CHIP_SERDES_FFE_MODE_DEFINE",
+              "cfg"       : [58, 19, 0, 0]
+            },
+            {
+              "serdes_id" : [24, 25, 26, 27, 28, 29, 30, 31],
+              "is_dac"    : 1,
+              "speed"     : [40000, 10000, 1000],
+
+              "mode"      : "CTC_CHIP_SERDES_FFE_MODE_DEFINE",
+              "cfg"       : [61, 22, 0, 0]
+            }
+        ]
+    }
+}

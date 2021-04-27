@@ -1,0 +1,7 @@
+ASIC GoldenGate
+
+#1. datapath init
+datapath /etc/centec/E582-48x6q-datapath-cfg.txt
+
+gchip_0 0
+local_chip_num 1

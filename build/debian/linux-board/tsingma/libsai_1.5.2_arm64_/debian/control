@@ -1,0 +1,11 @@
+Source: libsai
+Section: devel
+Priority: optional
+Maintainer: xgu <xgu@centecnetworks.com>
+Build-Depends: debhelper (>= 8.0.0)
+
+Package: libsai
+Architecture: any
+Depends: libc6 (>=2.14)
+Description: Centec lib for SAI
+

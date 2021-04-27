@@ -1,0 +1,9 @@
+Package: libsai
+Version: 1.5.2-5
+Architecture: arm64
+Maintainer: xgu <xgu@centecnetworks.com>
+Installed-Size: 28405
+Depends: libc6 (>= 2.14)
+Section: devel
+Priority: optional
+Description: Centec lib for SAI

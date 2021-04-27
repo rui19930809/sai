@@ -1,0 +1,12 @@
+Package: libsai-dbgsym
+Source: libsai
+Version: 1.5.2-5
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: xgu <xgu@centecnetworks.com>
+Installed-Size: 22730
+Depends: libsai (= 1.5.2-5)
+Section: debug
+Priority: optional
+Description: debug symbols for libsai
+Build-Ids: c6662633697b15d90f4528a13e4196ba41f27d7c e19cfcef4436c591d0ef6842afb9da3703278e89 f5bebcee93c13c0455d65edd866dd22fb8dd0402

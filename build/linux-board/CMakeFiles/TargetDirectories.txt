@@ -1,0 +1,5 @@
+/sai/build/linux-board/CMakeFiles/rebuild_cache.dir
+/sai/build/linux-board/CMakeFiles/edit_cache.dir
+/sai/build/linux-board/ctcsai/CMakeFiles/edit_cache.dir
+/sai/build/linux-board/ctcsai/CMakeFiles/rebuild_cache.dir
+/sai/build/linux-board/ctcsai/CMakeFiles/sai.dir

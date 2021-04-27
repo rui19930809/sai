@@ -1,0 +1,40 @@
+libsai (1.5.2-5) stable; urgency=medium
+
+   * Fix some bugs
+   * Support SubPort, SubIf, IP Tunnel, Port Split, ACL Bitmap and IPv6 ACL etc.
+
+ -- yoush <yoush@centecnetworks.com>  Thu, 28 Jan 2021 17:23:11 +0800
+
+libsai (1.5.2-4) stable; urgency=medium
+
+   * Fix some bugs
+   * Support QOS, IPv6, CRM, EverFLow, Port Drop Stats, Fast-reboot and SDK syslog etc.
+
+ -- yoush <yoush@centecnetworks.com>  Tue, 15 Dec 2020 15:17:12 +0800
+
+libsai (1.5.2-3) stable; urgency=medium
+
+   * Fix some bugs
+   * Support WarmBoot, Port Mtu, Port Policer and StormCtl etc.
+
+ -- yoush <yoush@centecnetworks.com>  Wed, 11 Nov 2020 17:23:11 +0800
+
+libsai (1.5.2-2) stable; urgency=medium
+  
+   * Update to SDK v5.5.8 from v5.5.3
+   * Fix some SAI bugs
+
+ -- xgu <xgu@centecnetworks.com>  Thu, 27 Aug 2020 16:35:29 +0800
+
+libsai (1.5.2-1) stable; urgency=medium
+
+  * Update to SAI 1.5.2
+
+ -- xgu <xgu@centecnetworks.com>  Thu, 23 Jul 2020 18:15:17 +0800
+
+libsai (1.5.1-1) stable; urgency=medium
+
+  * Update to SAI 1.5.1
+
+ -- taocy <taocy@centecnetworks.com>  Tue, 31 Dec 2019 12:34:56 +0800
+

@@ -1,0 +1,80 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+# Sample debian/rules that uses debhelper.
+# This file was originally written by Joey Hess and Craig Small.
+# As a special exception, when this file is copied by dh-make into a
+# dh-make output file, you may use that output file without restriction.
+# This special exception was added by Craig Small in version 0.37 of dh-make.
+
+include /usr/share/dpkg/pkg-info.mk
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+export INSTALL_MOD_DIR:=extra
+
+PYTHON         ?= python2
+
+PACKAGE_PRE_NAME=libsai
+
+%:
+	dh $@ --with systemd,python2,python3 --buildsystem=pybuild
+
+clean:
+	dh_testdir
+	dh_testroot
+	dh_clean
+
+build:
+
+binary: binary-arch binary-indep
+	# Nothing to do
+
+binary-arch: 
+	# Nothing to do
+
+#install: build
+	#dh_testdir
+	#dh_testroot
+	#dh_clean -k 
+	#dh_installdirs
+
+binary-indep:
+	dh_testdir
+	dh_installdirs
+
+	# Custom package commands
+	dh_installdirs -p$(PACKAGE_PRE_NAME) usr/lib
+	dh_installdirs -p$(PACKAGE_PRE_NAME) usr/lib/phy_drv
+	dh_installdirs -p$(PACKAGE_PRE_NAME) usr/lib/phy_drv/E530-48t4x-p
+	dh_installdirs -p$(PACKAGE_PRE_NAME) usr/lib/phy_drv/E530-48s4x
+	dh_installdirs -p$(PACKAGE_PRE_NAME) usr/bin
+	dh_installdirs -p$(PACKAGE_PRE_NAME) usr/include/sai
+	dh_installdirs -p$(PACKAGE_PRE_NAME) etc/centec
+	cp -r usr/lib/* debian/$(PACKAGE_PRE_NAME)/usr/lib/
+	cp -r usr/bin/* debian/$(PACKAGE_PRE_NAME)/usr/bin/
+	cp -r usr/include/sai/* debian/$(PACKAGE_PRE_NAME)/usr/include/sai/
+	cp -r etc/centec/* debian/$(PACKAGE_PRE_NAME)/etc/centec/
+	mv debian/$(PACKAGE_PRE_NAME)/usr/lib/libctcmv88e1548.so debian/$(PACKAGE_PRE_NAME)/usr/lib/phy_drv/E530-48s4x 2>/dev/null || true
+	mv debian/$(PACKAGE_PRE_NAME)/usr/lib/libctcmv88e1680.so debian/$(PACKAGE_PRE_NAME)/usr/lib/phy_drv/E530-48t4x-p 2>/dev/null || true
+	rm -rf debian/$(PACKAGE_PRE_NAME)/usr/lib/libctcmars8p.so debian/$(PACKAGE_PRE_NAME)/usr/lib/libctcrtl8218b.so debian/$(PACKAGE_PRE_NAME)/usr/lib/libctcvsc8512.so 2>/dev/null || true
+	#$(PYTHON) setup.py install --root=debian/libsai_1.6.1 --install-layout=deb;
+
+	# Resuming debhelper scripts
+	dh_testroot
+	dh_install
+	# dh_installchangelogs
+	# dh_installdocs
+	dh_systemd_enable
+	dh_installinit
+	dh_systemd_start
+	dh_link
+	dh_fixperms
+	dh_compress
+	dh_strip
+	dh_makeshlibs
+	dh_installdeb
+	dh_gencontrol
+	dh_md5sums
+	dh_builddeb
+.PHONY: build binary binary-arch binary-indep clean

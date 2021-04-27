@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Thu, 28 Jan 2021 17:23:11 +0800
+Source: libsai
+Binary: libsai
+Architecture: arm64
+Version: 1.5.2-5
+Distribution: stable
+Urgency: medium
+Maintainer: xgu <xgu@centecnetworks.com>
+Changed-By: yoush <yoush@centecnetworks.com>
+Description:
+ libsai     - Centec lib for SAI
+Changes:
+ libsai (1.5.2-5) stable; urgency=medium
+ .
+    * Fix some bugs
+    * Support SubPort, SubIf, IP Tunnel, Port Split, ACL Bitmap and IPv6 ACL etc.
+Checksums-Sha1:
+ fd05209bfc68770de8845b770f29718096ab8698 13523140 libsai-dbgsym_1.5.2-5_arm64.deb
+ 499fbffe5a3bfed169818c0b493b33ffffb711d3 5115 libsai_1.5.2-5_arm64.buildinfo
+ b9957b43b09833879894bc0aae1d86c0ac5307f2 4291114 libsai_1.5.2-5_arm64.deb
+Checksums-Sha256:
+ 39e86611f5ba7c6e16e2362b39ca5d3966aea7277212891a556fa4fb1f82f3bd 13523140 libsai-dbgsym_1.5.2-5_arm64.deb
+ 128ce2f57cf4930a3bd852fa4e507a6e81bf1c77f48ec467ce5bd7212d10874e 5115 libsai_1.5.2-5_arm64.buildinfo
+ 0133caed5961c3c46f4e1ffafa6795ffb092adc2e12d3dab038c5085499c26e8 4291114 libsai_1.5.2-5_arm64.deb
+Files:
+ b915618145add8b5b61cb9440f056e00 13523140 debug optional libsai-dbgsym_1.5.2-5_arm64.deb
+ a04d33fccf949f3e848fcd8a1dccee1c 5115 devel optional libsai_1.5.2-5_arm64.buildinfo
+ f79e8c9455785fd5769a026bb6ca6401 4291114 devel optional libsai_1.5.2-5_arm64.deb
